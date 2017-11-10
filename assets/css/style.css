@@ -1,0 +1,46 @@
+/* 
+    This is where our own custom CSS will live 
+    in case we need to overwrite Bootstrap
+*/
+/* Header */
+.jumbotron {
+    /* Override jumbotron background color 
+    background-color: #24A1B7 !important;*/
+    background-image: url("https://media.giphy.com/media/l2JJsnBRsvr9bs5RC/giphy.gif");
+    background-size: cover center;
+}
+.header {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    text-align: center;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.topic-button {
+    display: block;
+    padding: 0 15px;
+    margin: 5px 5px;
+}
+.form-display {
+    margin: 10px auto;
+    padding: auto 50%;
+    text-align: center;
+}
+.add-button {
+    margin: auto 10px;
+}
+.gif-div {
+    display: inline;
+}
+.image-gif {
+    padding: 0 15px;
+    margin: 20px 0;
+}
+.rating {
+    display: inline;
+    /*max-width: 200px;*/
+    /*margin: 0 20px;*/
+    size: 2em;
+}
